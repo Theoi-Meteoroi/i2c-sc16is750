@@ -19,7 +19,7 @@
 				interrupts = <24 2>; /* IRQ_TYPE_EDGE_FALLING */
 				#gpio-cells = <2>;
 
-				sc16is750_clk: sc16is750_clk {
+				sc16is750_clk: sc16is750_1_clk {
 					compatible = "fixed-clock";
 					#clock-cells = <0>;
 					clock-frequency = <14745600>;
